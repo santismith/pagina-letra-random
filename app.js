@@ -1,6 +1,17 @@
 
 
 letraQuery = document.querySelector('.letra');
+borrarLetraQuery = document.querySelector('.botonBorrarLetra')
+
+
+init()
+
+function init(){
+    borrarLetraQuery.style.visibility = "hidden"
+    letraQuery.style.visibility = "hidden"
+}
+
+
 
 
 
@@ -14,12 +25,15 @@ const letraRandom = function() {
 
 
     document.getElementById('boton0').addEventListener("click", function() {
-        letraQuery.textContent += letraRandom()
+        letraQuery.textContent = letraRandom()
+        letraQuery.style.visibility = "visible"
+        borrarLetraQuery.style.visibility ="visible"
+
     })
 
 
     document.getElementById('boton1').addEventListener("click",function(){
-        letraQuery.textContent = ''
+        letraQuery.style.visibility= "hidden"
 
     })
 

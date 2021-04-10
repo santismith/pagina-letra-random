@@ -8,7 +8,7 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
+    font-size: 20px;
     border-radius: 8px;
     transition-duration: 0.4s;
   }
@@ -29,7 +29,26 @@ button:hover{
     font-size: 40px;
 }
 
-
 body{
-    background-color: blue;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 9%, rgba(253,187,45,1) 100%); 
+}
+
+.web{
+    font-family:"Kameron";
+    font-size: 12px;
+    
+}
+
+
+h1{
+    position:absolute;
+    top: 100px;
+    left: 200px;
+}
+
+h2{
+    position: absolute;
+    top: 200px;
+    left: 300px;
 }
