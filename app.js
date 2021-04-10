@@ -7,8 +7,8 @@ borrarLetraQuery = document.querySelector('.botonBorrarLetra')
 init()
 
 function init(){
-    borrarLetraQuery.style.visibility = "hidden"
     letraQuery.style.visibility = "hidden"
+    borrarLetraQuery.style.visibility = "hidden"
 }
 
 
@@ -34,6 +34,7 @@ const letraRandom = function() {
 
     document.getElementById('boton1').addEventListener("click",function(){
         letraQuery.style.visibility= "hidden"
+        borrarLetraQuery.style.visibility = "hidden"
 
     })
 
