@@ -1,4 +1,24 @@
 
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: small;
+  }
+
 
 button{
     background-color: #4CAF50; /* Green */
@@ -9,14 +29,13 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius:8px;
     transition-duration: 0.4s;
   }
 
 button:hover{
     background-color: #3e8e41;
 }
-
 
 
 .letra{
@@ -26,7 +45,10 @@ button:hover{
     text-align: center;
     display: inline-block;
     border-radius: 8px;
-    font-size: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
 }
 
 
@@ -35,21 +57,42 @@ body{
     background: radial-gradient(circle, rgba(34,193,195,1) 9%, rgba(253,187,45,1) 100%); 
 }
 
-.web{
-    font-family:"Kameron";
-    font-size: 12px;
-    
+.url{
+    font-size: 10px; 
 }
 
 
 h1{
     position:absolute;
-    top: 100px;
-    left: 200px;
+    top: 200px;
+    left: 800px;
 }
 
 h2{
     position: absolute;
-    top: 200px;
-    left: 300px;
+    top: 300px;
+    left: 800px;
+    margin-top: auto;
+}
+
+.derechos{
+    text-align: left;
+    flex: 50%;
+}
+
+
+.contacto {
+    text-align: right;
+    flex: 50%;
+}
+
+
+.imgfooter{
+    opacity: 0.5;
+    text-align: center;
+    flex: 50%;
+}
+
+.imgfooter:hover{
+    opacity: 1.0;
 }
