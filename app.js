@@ -8,10 +8,8 @@ init()
 
 function init(){
     letraQuery.style.visibility = "hidden"
-    borrarLetraQuery.style.visibility = "hidden"
+    borrarLetraQuery.style.display = "none"
 }
-
-
 
 
 
@@ -27,14 +25,14 @@ const letraRandom = function() {
     document.getElementById('boton0').addEventListener("click", function() {
         letraQuery.textContent = letraRandom()
         letraQuery.style.visibility = "visible"
-        borrarLetraQuery.style.visibility ="visible"
+        borrarLetraQuery.style.display ="initial"
 
     })
 
 
     document.getElementById('boton1').addEventListener("click",function(){
         letraQuery.style.visibility= "hidden"
-        borrarLetraQuery.style.visibility = "hidden"
+        borrarLetraQuery.style.display = "none"
 
     })
 
