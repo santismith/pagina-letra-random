@@ -77,15 +77,16 @@ h2{
 
 .derechos{
     text-align: left;
-    flex: 50%;
+    flex: auto;
 }
 
 
-.contacto {
+
+
+.imggithub{
     text-align: right;
-    flex: 50%;
+    flex: auto;
 }
-
 
 .imgfooter{
     opacity: 0.5;
@@ -96,3 +97,4 @@ h2{
 .imgfooter:hover{
     opacity: 1.0;
 }
+
